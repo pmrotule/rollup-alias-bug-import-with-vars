@@ -1,0 +1,12 @@
+{
+  "name": "rollup-plugin-reproduction",
+  "version": "1.0.0",
+  "description": "Rollup plugin alias not working with dynamic imports including variables.",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.50.5",
+    "@rollup/plugin-alias": "^3.1.2"
+  }
+}
